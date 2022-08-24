@@ -1,0 +1,32 @@
+.start-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 17%;
+    font-weight: bolder;
+    font-size: xx-large;
+    color: #fff;
+}
+.start{
+    background-color: #041C32;
+    height: 100vh;
+}
+.start-btn{
+   margin-top: 20%;
+    margin-left: 80%;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 8px 12px 8px 12px;
+    color: #041C32;
+    font-weight: 600;
+    font-size: larger;
+    border-radius: 17px;
+    border: 5px solid #FF9551;
+}
+.start-btn:hover{
+   background-color: #ff9551;
+   color: #fff;
+   transition:0.5s;
+    
+}
+

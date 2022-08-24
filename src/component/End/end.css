@@ -1,0 +1,10 @@
+.end{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #002B5B;
+    color: white;
+    font-weight: bold;
+    font-size: xx-large;
+}

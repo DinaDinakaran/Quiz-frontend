@@ -1,0 +1,151 @@
+.container{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    background-color: #61C0BF;
+    border-radius: 70% 0 0 0;
+}
+.title{
+    background-color: #f4daff;
+    padding: 15px;
+    font-weight: 800;
+    font-size:xx-large;
+    border-radius: 13px;
+    color: rgb(0, 0, 0);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.mainmatter{
+ display: flex;
+ width: 900px;
+ margin-top: 30px;
+ background-color: #ffff;
+ height: 400px;
+ border-radius: 30px;
+ padding: 10px;
+}
+.pages{
+    flex: 4;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    margin-right:4px ;
+    padding: 8px;
+    border-radius: 30px;
+}
+.rodemap{
+    flex: 2;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    margin-right:4px ;
+    padding: 3px;
+    border-radius: 30px;
+}
+.option-btn{
+ display: flex;
+ flex-direction: column;
+ margin: 10px;
+
+}
+.option-btn-run{
+    width: 100%;
+    padding: 3px;
+    background-color: #fff5fc;
+    border-radius: 4px;
+    border :none;
+    padding: 5px 0 5px 0;
+    font-size: large;
+}
+.option-btn-run:hover{
+  cursor: pointer;
+  background-color: #CDF0EA;
+  font-weight: 800;
+}
+.quiz-title{
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-weight: 900;
+}
+.questionnumber{
+    color: darkgrey;
+    margin: 2px;
+}
+.question{
+    word-wrap: break-word;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 8px;
+    border: 2px solid #F6C6EA;
+}
+.navication-btns{
+    display: flex;
+    justify-content: space-around;
+}
+.previous {
+padding: 5px 10px 5px 10px;
+border-radius: 7px;
+border: none;
+font-weight: 700;
+background-color: #d5c0ff;
+cursor: pointer;
+
+}
+.next{
+    padding: 5px 15px 5px 10px;
+border-radius: 7px;
+border: none;
+font-weight: 700;
+background-color: #CEE5D0;
+cursor: pointer;
+}
+.explanation{
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+    margin-top: 10px;
+    word-wrap: break-word;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 8px;
+}
+.explanation-title{
+    font-weight: 700;
+}
+.rodemap{
+    margin: 4px;
+    padding: 10px;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+}
+.qus-number{
+    font-size:x-large;
+    margin-left:3px ;
+}
+.rodemap-btn{
+  display: flex;
+  flex-wrap: wrap;
+  gap :10px
+
+}
+.action{
+    padding: 10px 17px 10px 17px ;
+    font-weight:700;
+    font-size: larger;
+    border-radius: 60%;
+    border: none;
+    background-color: rgb(255, 228, 233);
+    color: rgb(139, 139, 139);
+    cursor: pointer;
+    
+}
+.Onaction{
+    padding: 10px 17px 10px 17px ;
+    font-weight:700;
+    font-size: larger;
+    border-radius: 60%;
+    border: 2px solid darkgrey;
+    background-color: rgb(166, 239, 255);
+    color: rgb(139, 139, 139);
+    cursor: pointer;
+    
+}
